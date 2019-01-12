@@ -1,0 +1,8 @@
+version: 2.1
+
+orbs:
+  spring5-recipe-app: circleci/spring5-recipe-app-build@0.0.1
+
+workflow:
+  "spring5-recipe-app":
+    - spring5-recipe-app/spring5-recipe-app-build
